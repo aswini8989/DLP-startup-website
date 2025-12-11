@@ -5,48 +5,7 @@ import { ExternalLink } from "lucide-react";
 import { Badge } from "./ui/badge";
 
 const projects = [
-  {
-    title: "E-Commerce Platform",
-    category: "Web Development",
-    description: "A scalable e-commerce solution with real-time inventory management",
-    image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?w=800&h=600&fit=crop",
-    tags: ["React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Mobile Banking App",
-    category: "Mobile Development",
-    description: "Secure and user-friendly banking application for iOS and Android",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
-    tags: ["React Native", "Firebase", "Stripe"],
-  },
-  {
-    title: "Healthcare Dashboard",
-    category: "Data Analytics",
-    description: "Real-time analytics dashboard for healthcare providers",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-    tags: ["Vue.js", "Python", "AWS"],
-  },
-  {
-    title: "AI Chatbot Solution",
-    category: "AI & ML",
-    description: "Intelligent customer service chatbot with natural language processing",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
-    tags: ["Python", "TensorFlow", "NLP"],
-  },
-  {
-    title: "Cloud Infrastructure",
-    category: "Cloud Services",
-    description: "Enterprise-grade cloud infrastructure migration and optimization",
-    image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop",
-    tags: ["AWS", "Docker", "Kubernetes"],
-  },
-  {
-    title: "IoT Platform",
-    category: "IoT",
-    description: "Complete IoT solution for smart home automation",
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&h=600&fit=crop",
-    tags: ["IoT", "Node.js", "MQTT"],
-  },
+  // Add your projects here
 ];
 
 export function Portfolio() {

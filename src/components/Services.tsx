@@ -3,36 +3,7 @@ import { Code, Globe, Smartphone, Zap, Shield, Database } from "lucide-react";
 import { motion } from "framer-motion";
 
 const services = [
-  {
-    icon: Code,
-    title: "Web Development",
-    description: "Custom web applications built with the latest technologies and best practices.",
-  },
-  {
-    icon: Smartphone,
-    title: "Mobile Solutions",
-    description: "Native and cross-platform mobile apps that engage your users.",
-  },
-  {
-    icon: Globe,
-    title: "Cloud Services",
-    description: "Scalable cloud infrastructure and migration services for your business.",
-  },
-  {
-    icon: Zap,
-    title: "Performance Optimization",
-    description: "Boost your application performance with our expert optimization services.",
-  },
-  {
-    icon: Shield,
-    title: "Security Solutions",
-    description: "Enterprise-grade security to protect your data and applications.",
-  },
-  {
-    icon: Database,
-    title: "Data Analytics",
-    description: "Turn your data into actionable insights with advanced analytics.",
-  },
+  // Add your services here
 ];
 
 const container = {

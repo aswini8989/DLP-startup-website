@@ -3,12 +3,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { motion } from "framer-motion";
 
 const features = [
-  "Advanced AI-powered automation",
-  "24/7 customer support",
-  "99.9% uptime guarantee",
-  "Enterprise-grade security",
-  "Scalable infrastructure",
-  "Real-time analytics dashboard",
+  // Add your features here
 ];
 
 export function Features() {

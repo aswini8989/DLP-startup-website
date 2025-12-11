@@ -12,7 +12,6 @@ export function Header() {
     { name: "Home", path: "/" },
     { name: "Services", path: "/services" },
     { name: "Features", path: "/features" },
-    { name: "Team", path: "/team" },
     { name: "Contact", path: "/contact" },
   ];
 

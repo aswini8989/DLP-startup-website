@@ -49,9 +49,8 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl md:text-5xl lg:text-6xl"
             >
-              Innovate Your Business with{" "}
-              <span className="text-primary bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Cutting-Edge Solutions
+              Your <span className="text-primary bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                Headline Here
               </span>
             </motion.h1>
             <motion.p
@@ -60,8 +59,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-muted-foreground text-lg"
             >
-              Transform your business with our advanced technology platform. We deliver
-              exceptional results that drive growth and innovation.
+              Add your main message and value proposition here. Replace this text with your own content to describe what you offer.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -88,22 +86,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="flex gap-8 pt-4"
             >
-              {[
-                { value: "500+", label: "Clients" },
-                { value: "98%", label: "Satisfaction" },
-                { value: "50+", label: "Awards" }
-              ].map((stat, index) => (
-                <motion.div
-                  key={stat.label}
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
-                  whileHover={{ scale: 1.1 }}
-                >
-                  <div className="text-3xl text-primary">{stat.value}</div>
-                  <div className="text-muted-foreground">{stat.label}</div>
-                </motion.div>
-              ))}
+              {/* Stats removed - add your own data here */}
             </motion.div>
           </div>
           <motion.div

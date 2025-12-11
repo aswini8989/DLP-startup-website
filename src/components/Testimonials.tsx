@@ -3,27 +3,7 @@ import { Card, CardContent } from "./ui/card";
 import { Star } from "lucide-react";
 
 const testimonials = [
-  {
-    name: "John Anderson",
-    role: "CEO, TechCorp",
-    content: "DLP International transformed our digital infrastructure. Their expertise and dedication are unmatched. We've seen a 300% increase in efficiency.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
-  },
-  {
-    name: "Sarah Mitchell",
-    role: "CTO, InnovateLabs",
-    content: "Working with DLP International has been a game-changer for our company. Their innovative solutions exceeded all our expectations.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-  },
-  {
-    name: "David Chen",
-    role: "Founder, StartupXYZ",
-    content: "The team at DLP International is exceptional. They delivered our project on time and under budget while maintaining the highest quality standards.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-  },
+  // Add your testimonials here
 ];
 
 export function Testimonials() {
