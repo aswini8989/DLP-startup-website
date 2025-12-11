@@ -4,7 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
-    base: './',
+    base: '/DLP-startup-website/',
     plugins: [react()],
     appType: 'spa',
     resolve: {
